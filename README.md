@@ -138,17 +138,8 @@ Certainly! Here's the complete markdown content:
    ```bash
    chmod +x internsctl
    ```
-3. Move the script to the folder which are listed under the $PATH variable
    
-   ```bash
-   echo $PATH
-   ```
-   The common file path is /usr/bin so move the script to that file
-   
-   ```bash
-   sudo mv your_script /usr/bin/ internsctl
-   
-4. Run the script:
+3. Run the script:
 
    ```bash
    ./internsctl <command> [options]
@@ -159,7 +150,11 @@ Certainly! Here's the complete markdown content:
 To install `internsctl` system-wide and make it available in the PATH, you can use the following commands:
 
 ```bash
-sudo cp internsctl /usr/bin/
+echo $PATH
+```
+
+```bash
+sudo mv your_script /usr/bin/ internsctl
 sudo chmod +x /usr/bin/internsctl
 ```
 
