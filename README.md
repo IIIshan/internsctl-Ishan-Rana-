@@ -91,15 +91,17 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl user list
    ```
-  ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/04b619f5-0f17-486d-8824-8dbe7d84a289)
+    ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/04b619f5-0f17-486d-8824-8dbe7d84a289)
 
-  ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/8d397abe-b6ef-4a25-820b-02c941a9b975)
+    ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/8d397abe-b6ef-4a25-820b-02c941a9b975)
 
 3. **List Users with Sudo Permissions**
 
    ```bash
    internsctl user list --sudo-only
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/df6560ea-6abf-412d-8735-735e13cadce7)
+
 
 #### Part 3 | Advanced Level
 
@@ -125,7 +127,7 @@ Certainly! Here's the complete markdown content:
 
 ## Usage
 
-1. Clone the repository:
+1. Clone the repository/Download the bash script:
 
    ```bash
    git clone https://github.com/your-username/internsctl.git
@@ -136,8 +138,17 @@ Certainly! Here's the complete markdown content:
    ```bash
    chmod +x internsctl
    ```
-
-3. Run the script:
+3. Move the script to the folder which are listed under the $PATH variable
+   
+   ```bash
+   echo $PATH
+   ```
+   The common file path is /usr/bin so move the script to that file
+   
+   ```bash
+   sudo mv your_script /usr/bin/ internsctl
+   
+4. Run the script:
 
    ```bash
    ./internsctl <command> [options]
