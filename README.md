@@ -25,15 +25,24 @@ Certainly! Here's the complete markdown content:
 
 ### A. Basic Commands
 
-1. **Manual Page**
+1. **Creating Manual Page**
+   
+   Download the internsctl.1 file and then execute follwing commands
+   ```bash
+   sudo gzip -c internsctl.1 > /usr/share/man/man1/internsctl.1.gz
+   ```
+   
+2. **Manual Page**
 
    To view the full documentation of the command, execute:
 
    ```bash
    man internsctl
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/08602578-9018-4b21-ae45-907128b46f5f)
 
-2. **Help Option**
+
+3. **Help Option**
 
    To view usage guidelines and examples, use the `--help` option:
 
@@ -43,7 +52,7 @@ Certainly! Here's the complete markdown content:
    ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/ee5c0e90-158f-418d-9d94-57a23a83b8df)
 
 
-3. **Version**
+4. **Version**
 
    To view the version of the command, execute:
 
