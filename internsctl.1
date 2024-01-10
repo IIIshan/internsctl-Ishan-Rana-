@@ -1,0 +1,50 @@
+.TH INTERNSCTL 1 "January 2024" "Ishan Singh Rana"
+.SH NAME
+internsctl \- Custom Linux command v0.1.0
+.SH SYNOPSIS
+.B internsctl
+[\fIOPTIONS\fR] \fICOMMAND\fR [\fIARGS\fR]
+.SH DESCRIPTION
+Custom Linux command for various operations.
+.SH OPTIONS
+.TP
+.BR --help
+Display this help message.
+.TP
+.BR --version
+Display command version.
+.SH COMMANDS
+.TP
+.BR cpu getinfo
+Get CPU information.
+.TP
+.BR memory getinfo
+Get memory information.
+.TP
+.BR user create
+Create a new user.
+.TP
+.BR user list
+List all regular users.
+.TP
+.BR user list --sudo-only
+List users with sudo permissions.
+.TP
+.BR file getinfo
+Get information about a file.
+.SH FILE COMMAND OPTIONS
+.TP
+.BR --size , -s
+Print the size of the specified file.
+.TP
+.BR --permissions , -p
+Print the file permissions of the specified file.
+.TP
+.BR --owner , -o
+Print the owner of the specified file.
+.TP
+.BR --last-modified
+Print the last modified time of the specified file.
+.SH AUTHOR
+Ishan Singh Rana
+
