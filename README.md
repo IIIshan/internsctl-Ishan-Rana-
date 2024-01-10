@@ -82,6 +82,7 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl user create <username>
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/e5a4b6c2-1fde-4dae-b39a-7e76f7503420)
 
    Create a new user with login access.
 
@@ -90,6 +91,9 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl user list
    ```
+  ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/04b619f5-0f17-486d-8824-8dbe7d84a289)
+
+  ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/8d397abe-b6ef-4a25-820b-02c941a9b975)
 
 3. **List Users with Sudo Permissions**
 
