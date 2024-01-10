@@ -40,6 +40,8 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl --help
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/ee5c0e90-158f-418d-9d94-57a23a83b8df)
+
 
 3. **Version**
 
@@ -48,6 +50,8 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl --version
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/ec9b5824-ee5b-4d90-88ff-322477951699)
+
 
 ### B. Commands by Difficulty Level
 
