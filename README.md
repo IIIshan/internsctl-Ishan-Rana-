@@ -1,6 +1,5 @@
 Certainly! Here's the complete markdown content:
 
-```markdown
 # internsctl - Custom Linux Command
 
 `internsctl` is a custom Linux command designed to provide various system management operations. It addresses specific needs outlined by a customer. This document provides an overview of the features, commands, and usage guidelines for `internsctl`.
@@ -171,5 +170,3 @@ Contributions are welcome! If you have any improvements, bug fixes, or new featu
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-You can copy and paste this content directly into your README.md file on GitHub.
