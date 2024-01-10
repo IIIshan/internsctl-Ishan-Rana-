@@ -158,26 +158,6 @@ sudo mv your_script /usr/bin/ internsctl
 sudo chmod +x /usr/bin/internsctl
 ```
 
-## Examples
-
-- Display CPU information:
-
-  ```bash
-  internsctl cpu getinfo
-  ```
-
-- Create a new user:
-
-  ```bash
-  internsctl user create john_doe
-  ```
-
-- Get information about a file's size:
-
-  ```bash
-  internsctl file getinfo --size example.txt
-  ```
-
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new features to propose, please open an issue or submit a pull request.
@@ -185,4 +165,4 @@ Contributions are welcome! If you have any improvements, bug fixes, or new featu
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
+
