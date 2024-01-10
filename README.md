@@ -110,6 +110,8 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl file getinfo <file-name>
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/d42a467f-5685-4e02-b8ba-339b560648fc)
+
 
    Expected Output: Detailed file information.
 
