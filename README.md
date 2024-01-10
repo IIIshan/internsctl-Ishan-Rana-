@@ -58,6 +58,7 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl cpu getinfo
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/cd89e23c-4339-4698-8b43-869214b83382)
 
    Expected Output: Similar to `lscpu` command.
 
@@ -66,6 +67,7 @@ Certainly! Here's the complete markdown content:
    ```bash
    internsctl memory getinfo
    ```
+   ![image](https://github.com/IIIshan/internsctl-Ishan-Rana-/assets/20624673/f2865cc1-5ef5-40b5-b6f0-24606d6a0532)
 
    Expected Output: Similar to `free` command.
 
